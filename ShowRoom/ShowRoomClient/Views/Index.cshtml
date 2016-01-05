@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <base href="/">
+    <meta name="viewport" content="initial-scale=1">
+    <meta property="og:url" content="http://37.123.166.129/showroom/content/img/paintings/1.png" />
+    <meta property="og:title" content="Galinas Gallery" />
+    <meta property="og:description" content="Best paintings ever" />
+    <meta property="og:image" content="http://37.123.166.129/showroom/content/img/paintings/1.png" />
+    <title>Galinas Gallery</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    @Styles.Render("~/Content/css")
+
+</head>
+<body layout="row" ng-cloak ng-controller="Main as vm">
+    <md-sidenav class="side-nav md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+        <md-toolbar id="side-nav-toolbar">
+            <md-button href="Gallery" id="logo">
+                <img ng-src="content/img/icons/logo.svg" alt="Logo">
+            </md-button>
+        </md-toolbar>
+        <md-content layout="column">
+            <md-button href="Gallery" class="menu-item menu-title">Gallery</md-button>
+            <md-button href="Checkout" ng-disabled="vm.cartItems.length === 0" class="menu-item menu-title">Checkout</md-button>
+            <md-button href="About" class="menu-item menu-title">About</md-button>
+            <md-button href="Scene" ng-disabled="!vm.showTour" class="menu-item menu-title">3D Tour <span style="color:red;">(BETA)</span></md-button>
+            <md-button ng-click="vm.close()" class="menu-item menu-title" hide-gt-md>Close</md-button>
+        </md-content>
+    </md-sidenav>
+    <div layout="column" flex>
+        <md-toolbar layout="row" ng-class="{'md-tall': vm.tallToolbar}">
+            <div layout-fill class="md-toolbar-tools">
+                <md-button hide-gt-md ng-click="vm.toggleLeft()" class="md-icon-button" aria-label="Menu">
+                    <md-icon md-svg-icon="content/img/icons/menu.svg"></md-icon>
+                </md-button>
+                <div flex>
+                    <h1 ng-hide="true" class="md-toolbar-tools">{{vm.title}}</h1>
+                </div>
+                <span flex></span>
+                <div class="md-toolbar-tools md-toolbar-tools-bottom" flex layout-align="end end">
+                    <md-button ng-disabled="vm.cartItems.length === 0" href="Checkout" class="menu-item menu-title ">
+                        <md-icon style="color: white;">shopping_cart</md-icon>
+                        <span style="color: white;">({{vm.cartItems.length}})</span>
+                    </md-button>
+                </div>
+            </div>
+        </md-toolbar>
+        <md-content md-scroll-y flex ng-view>
+        </md-content>
+    </div>
+
+    @Scripts.Render("~/bundles/core")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/material")
+    @Scripts.Render("~/bundles/app")
+</body>
+</html>

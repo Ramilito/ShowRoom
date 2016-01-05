@@ -1,0 +1,13 @@
+﻿
+
+
+.md-toolbar-tools h1 {
+        color: #fff;
+    white-space: nowrap
+}
+
+
+md-dialog {
+    max-width: 90%;
+    max-height: 90%;
+}

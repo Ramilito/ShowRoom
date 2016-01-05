@@ -1,0 +1,23 @@
+﻿<md-dialog aria-label="{{vm.painting.name}}">
+    <md-dialog-content layout="row">
+        <div>
+            <img ng-src="{{vm.painting.src}}">
+        </div>
+    </md-dialog-content>
+    <md-dialog-actions layout="row"  layout-align="space-between end">
+        <div layout layout-align="start end">
+            <span flex></span>
+            <md-button ng-click="vm.addOrRemove(vm.painting)">
+                <md-icon ng-class="{'item_added' : vm.painting.itemAdded}">add_shopping_cart</md-icon>
+            </md-button>
+            <md-button ng-click="vm.thumbUp(vm.painting)">
+                <md-icon ng-class="{'thumb_up_active' : vm.painting.thumbUp}">thumb_up</md-icon>
+                <span ng-style="{color: painting.thumbUp ? 'dodgerblue' : '' }">{{vm.painting.thumbsUp}}</span>
+            </md-button>
+            <md-button ng-disabled="true" class="md-icon-button">
+                <md-icon ng-show="vm.painting.plusOne" ng-class="{'plus_one_active' : vm.painting.thumbUp}">plus_one</md-icon>
+                <md-icon ng-show="vm.painting.minusOne" ng-class="{'minus_one_active' : vm.painting.minusOne}">exposure_neg_1</md-icon>
+            </md-button>
+        </div>
+    </md-dialog-actions>
+</md-dialog>

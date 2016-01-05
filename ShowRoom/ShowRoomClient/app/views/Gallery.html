@@ -1,0 +1,55 @@
+﻿<div class="view" ng-hide="vm.isHidden" ng-controller="Gallery as vm">
+    <md-content layout="row" layout-align="center start" layout-wrap>
+        <div layout="column" flex="25" flex-md="33" flex-sm="50" flex-xs="100" ng-repeat="row in vm.rows track by $index">
+            <md-content ng-repeat="painting in vm.paintings" ng-if="$index >= row.start && $index <= row.end" class="animate-this">
+                <md-card>
+                    <md-button class="gallery-card-img" ng-click="vm.showDialog($event, painting)" aria-label="painting.name">
+                        <img ng-src="{{painting.src}}">
+                    </md-button>
+                    <md-card-title>
+                        <md-card-title-text>
+                            <span class="md-headline">{{painting.name}}</span>
+                            <span class="md-subhead">{{painting.text}}</span>
+                        </md-card-title-text>
+                    </md-card-title>
+                    <md-divider></md-divider>
+                    <md-card-actions style="margin:0;" layout="row" layout-align="space-between end">
+                        <div>
+                            <md-button class="md-icon-button" ng-click="vm.addOrRemove(painting)">
+                                <md-icon ng-class="{'item_added' : painting.itemAdded}">add_shopping_cart</md-icon>
+                            </md-button>
+                            <md-button class="md-icon-button" ng-click="vm.thumbUp(painting)">
+                                <md-icon ng-class="{'thumb_up_active' : painting.thumbUp}">thumb_up</md-icon>
+                            </md-button>
+                            
+                            <span ng-style="{color: painting.thumbUp ? 'dodgerblue' : '' }">{{painting.thumbsUp}}</span>
+                            <md-icon class="plus_one" ng-show="painting.plusOne" ng-class="{'plus_one_active' : painting.thumbUp}">plus_one</md-icon>
+                            <md-icon class="minus_one" ng-show="painting.minusOne" ng-class="{'minus_one_active' : painting.minusOne}">exposure_neg_1</md-icon>
+                        </div>
+                        <div> 
+                            <md-menu md-position-mode="target-right target">
+                                <md-button  aria-label="Open sharing interactions menu" class="md-icon-button gallery-menu-vert " ng-click="vm.openMenu($mdOpenMenu, $event)">
+                                    <md-icon  md-menu-origin>more_vert</md-icon>
+                                </md-button>
+                                <md-menu-content>
+                                    <md-menu-item>
+                                        <md-button target="_blank" ng-href="{{painting.fbLink}}">
+                                            <md-icon md-menu-align-target md-svg-src="content/img/icons/facebook.svg" aria-label="Facebook"></md-icon>
+                                            Facebook
+                                        </md-button>
+                                    </md-menu-item>
+                                    <md-menu-item>
+                                        <md-button ng-click="">
+                                            <md-icon md-menu-align-target md-svg-src="content/img/icons/twitter.svg" aria-label="Facebook"></md-icon>
+                                            Twitter
+                                        </md-button>
+                                    </md-menu-item>
+                                </md-menu-content>
+                            </md-menu>
+                        </div>
+                    </md-card-actions>
+                </md-card>
+            </md-content>
+        </div>
+    </md-content>
+</div>
