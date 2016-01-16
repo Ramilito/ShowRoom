@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html ng-app="app">
+<head>
+    <base href="/">
+    <meta name="viewport" content="initial-scale=1">
+    <meta name="fragment" content="!">
+    <meta property="og:title" content="The Rock" />
+    <meta property="og:type" content="video.movie" />
+    <meta property="og:image" content="{{ogContent}}" />
+    <meta property="fb:app_id" content="1107644002588201" />
+
+    <title>Galinas Gallery</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="content/css/angular-material.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="content/css/overrides.css" rel="stylesheet">
+    <link href="content/css/site.css" rel="stylesheet">
+
+</head>
+<body layout="row" ng-cloak ng-controller="Main as vm">
+    <md-sidenav class="side-nav md-sidenav-left md-whiteframe-z2" md-component-id="left" md-is-locked-open="$mdMedia('gt-md')">
+        <md-toolbar id="side-nav-toolbar">
+            <md-button href="Gallery" id="logo">
+                <img ng-src="content/img/icons/logo.svg" alt="Logo">
+            </md-button>
+        </md-toolbar>
+        <md-content layout="column">
+            <md-button href="Gallery" class="menu-item menu-title">Gallery</md-button>
+            <md-button href="Checkout" ng-disabled="vm.cartItems.length === 0" class="menu-item menu-title">Checkout</md-button>
+            <md-button href="About" class="menu-item menu-title">About</md-button>
+            <md-button href="Scene" ng-disabled="!vm.showTour" class="menu-item menu-title">3D Tour <span style="color:red;">(BETA)</span></md-button>
+            <md-button ng-click="vm.close()" class="menu-item menu-title" hide-gt-md>Close</md-button>
+        </md-content>
+    </md-sidenav>
+    <div layout="column" flex>
+        <md-toolbar layout="row" ng-class="{'md-tall': vm.tallToolbar}">
+            <div layout-fill class="md-toolbar-tools">
+                <md-button hide-gt-md ng-click="vm.toggleLeft()" class="md-icon-button" aria-label="Menu">
+                    <md-icon md-svg-icon="content/img/icons/menu.svg"></md-icon>
+                </md-button>
+                <div flex>
+                    <h1 ng-hide="true" class="md-toolbar-tools">{{vm.title}}</h1>
+                </div>
+                <span flex></span>
+                <div class="md-toolbar-tools md-toolbar-tools-bottom" flex layout-align="end end">
+                    <md-button ng-disabled="vm.cartItems.length === 0" href="Checkout" class="menu-item menu-title ">
+                        <md-icon style="color: white;">shopping_cart</md-icon>
+                        <span style="color: white;">({{vm.cartItems.length}})</span>
+                    </md-button>
+                </div>
+            </div>
+        </md-toolbar>
+        <md-content md-scroll-y flex ng-view>
+        </md-content>
+    </div>
+
+    <script src="Scripts/angular/angular.js"></script>
+    <script src="Scripts/angular/angular-route.js"></script>
+    <script src="Scripts/angular/angular-cookies.js"></script>
+    <script src="Scripts/angular/angular-animate.js"></script>
+    <script src="Scripts/angular/angular-material.js"></script>
+    <script src="Scripts/angular/angular-aria.js"></script>
+    <script src="Scripts/angular/angulike.js"></script>
+    <script src="Scripts/angular/angular-easyfb.js"></script>
+    <script src="Scripts/babylon/babylon.js"></script>
+
+    <script src="app/app.module.js"></script>
+    <script src="app/directives/babylonScene.js"></script>
+    <script src="app/services/shoppingCart.js"></script>
+    <script src="app/services/products.js"></script>
+    <script src="app/controllers/main.js"></script>
+    <script src="app/controllers/about.js"></script>
+    <script src="app/controllers/dialog.js"></script>
+    <script src="app/controllers/scene.js"></script>
+    <script src="app/controllers/checkout.js"></script>
+    <script src="app/controllers/gallery.js"></script>
+
+</body>
+</html>

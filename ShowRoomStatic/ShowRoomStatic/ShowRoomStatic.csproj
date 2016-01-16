@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C35B725E-07B9-4C01-B7B6-B19AAAD0432B}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShowRoomStatic</RootNamespace>
+    <AssemblyName>ShowRoomStatic</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app\app.module.js" />
+    <Content Include="app\controllers\about.js" />
+    <Content Include="app\controllers\checkout.js" />
+    <Content Include="app\controllers\dialog.js" />
+    <Content Include="app\controllers\gallery.js" />
+    <Content Include="app\controllers\main.js" />
+    <Content Include="app\controllers\scene.js" />
+    <Content Include="app\directives\babylonScene.js" />
+    <Content Include="app\services\products.js" />
+    <Content Include="app\services\shoppingCart.js" />
+    <Content Include="About.html" />
+    <Content Include="Checkout.html" />
+    <Content Include="content\css\angular-material.css" />
+    <Content Include="content\css\overrides.css" />
+    <Content Include="content\css\site.css" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="content\img\icons\facebook.svg" />
+    <Content Include="content\img\icons\logo.svg" />
+    <Content Include="content\img\icons\menu.svg" />
+    <Content Include="content\img\icons\twitter.svg" />
+    <Content Include="content\img\paintings\1.png" />
+    <Content Include="content\img\paintings\10.jpg" />
+    <Content Include="content\img\paintings\11.jpg" />
+    <Content Include="content\img\paintings\12.jpg" />
+    <Content Include="content\img\paintings\13.jpg" />
+    <Content Include="content\img\paintings\14.jpg" />
+    <Content Include="content\img\paintings\15.jpg" />
+    <Content Include="content\img\paintings\16.jpg" />
+    <Content Include="content\img\paintings\17.jpg" />
+    <Content Include="content\img\paintings\18.jpg" />
+    <Content Include="content\img\paintings\19.jpg" />
+    <Content Include="content\img\paintings\2.jpg" />
+    <Content Include="content\img\paintings\20.jpg" />
+    <Content Include="content\img\paintings\21.jpg" />
+    <Content Include="content\img\paintings\22.jpg" />
+    <Content Include="content\img\paintings\23.jpg" />
+    <Content Include="content\img\paintings\24.jpg" />
+    <Content Include="content\img\paintings\25.jpg" />
+    <Content Include="content\img\paintings\26.jpg" />
+    <Content Include="content\img\paintings\27.jpg" />
+    <Content Include="content\img\paintings\28.jpg" />
+    <Content Include="content\img\paintings\29.jpg" />
+    <Content Include="content\img\paintings\3.jpg" />
+    <Content Include="content\img\paintings\30.jpg" />
+    <Content Include="content\img\paintings\31.jpg" />
+    <Content Include="content\img\paintings\32.jpg" />
+    <Content Include="content\img\paintings\33.png" />
+    <Content Include="content\img\paintings\34.jpg" />
+    <Content Include="content\img\paintings\35.jpg" />
+    <Content Include="content\img\paintings\36.jpg" />
+    <Content Include="content\img\paintings\37.jpg" />
+    <Content Include="content\img\paintings\38.jpg" />
+    <Content Include="content\img\paintings\39.jpg" />
+    <Content Include="content\img\paintings\4.jpg" />
+    <Content Include="content\img\paintings\5.jpg" />
+    <Content Include="content\img\paintings\6.jpg" />
+    <Content Include="content\img\paintings\7.jpg" />
+    <Content Include="content\img\paintings\8.jpg" />
+    <Content Include="content\img\paintings\9.jpg" />
+    <Content Include="content\scenes\DancingCouples.PNG" />
+    <Content Include="content\scenes\showRoom.floor.001_TEXTURE.jpg" />
+    <Content Include="content\scenes\showRoom.floor_TEXTURE.jpg" />
+    <Content Include="content\scenes\showRoom.Plane_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\showRoom.roof_TEXTURE.jpg" />
+    <Content Include="content\scenes\showRoom.Sphere_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\showRoom.wall.001_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\showRoom.wall.002_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\showRoom.wall.003_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\showRoom.wall_DIFFUSE_COLOR.jpg" />
+    <Content Include="content\scenes\white_marble_fine_20120709_1772275766 %282%29.jpg" />
+    <Content Include="Gallery.html" />
+    <Content Include="pictureDialog.tmpl.html" />
+    <Content Include="Scene.html" />
+    <Content Include="Scripts\angular\angular-easyfb.js" />
+    <Content Include="Scripts\angular\angular.min.js.map" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="content\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="content\scenes\showRoom.babylon" />
+    <Content Include="content\scenes\showRoom.log" />
+    <Content Include="content\scenes\showRoomTest.babylon" />
+    <Content Include="content\scenes\showRoomTest.log" />
+    <Content Include="content\shaders\gradient.fragment.fx" />
+    <Content Include="content\shaders\gradient.vertex.fx" />
+    <Content Include=".htaccess">
+      <SubType>Designer</SubType>
+    </Content>
+    <None Include="Properties\PublishProfiles\ftpCpanel.pubxml" />
+    <None Include="Properties\PublishProfiles\showroom.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Index.html" />
+    <Content Include="Scripts\angular\angular-animate.js" />
+    <Content Include="Scripts\angular\angular-aria.js" />
+    <Content Include="Scripts\angular\angular-cookies.js" />
+    <Content Include="Scripts\angular\angular-material.js" />
+    <Content Include="Scripts\angular\angular-mocks.js" />
+    <Content Include="Scripts\angular\angular-route.js" />
+    <Content Include="Scripts\angular\angular.js" />
+    <Content Include="Scripts\angular\angulike.js" />
+    <Content Include="Scripts\babylon\babylon.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>59593</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:59593/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

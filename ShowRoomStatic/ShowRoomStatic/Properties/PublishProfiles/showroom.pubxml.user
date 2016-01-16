@@ -1,0 +1,466 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>D:\wamp\www\ShowRoom</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include=".htaccess">
+      <publishTime>01/12/2016 17:51:20</publishTime>
+    </File>
+    <File Include="About.html">
+      <publishTime>01/05/2016 09:27:59</publishTime>
+    </File>
+    <File Include="app/app.module.js">
+      <publishTime>01/12/2016 20:36:00</publishTime>
+    </File>
+    <File Include="app/controllers/about.js">
+      <publishTime>01/05/2016 09:11:16</publishTime>
+    </File>
+    <File Include="app/controllers/checkout.js">
+      <publishTime>01/05/2016 09:11:17</publishTime>
+    </File>
+    <File Include="app/controllers/dialog.js">
+      <publishTime>01/12/2016 21:31:57</publishTime>
+    </File>
+    <File Include="app/controllers/gallery.js">
+      <publishTime>01/12/2016 22:59:09</publishTime>
+    </File>
+    <File Include="app/controllers/main.js">
+      <publishTime>01/05/2016 09:11:19</publishTime>
+    </File>
+    <File Include="app/controllers/scene.js">
+      <publishTime>01/05/2016 09:11:19</publishTime>
+    </File>
+    <File Include="app/directives/babylonScene.js">
+      <publishTime>01/05/2016 09:11:36</publishTime>
+    </File>
+    <File Include="app/services/products.js">
+      <publishTime>01/12/2016 20:11:04</publishTime>
+    </File>
+    <File Include="app/services/shoppingCart.js">
+      <publishTime>01/05/2016 09:10:46</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>01/12/2016 17:42:43</publishTime>
+    </File>
+    <File Include="bin/ShowRoomStatic.dll">
+      <publishTime>01/12/2016 23:30:46</publishTime>
+    </File>
+    <File Include="Checkout.html">
+      <publishTime>01/05/2016 09:27:59</publishTime>
+    </File>
+    <File Include="Content/css/angular-material.css">
+      <publishTime>01/05/2016 09:35:15</publishTime>
+    </File>
+    <File Include="Content/css/overrides.css">
+      <publishTime>01/12/2016 20:41:23</publishTime>
+    </File>
+    <File Include="Content/css/site.css">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.eot">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.svg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/img/icons/facebook.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/icons/logo.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/icons/menu.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/icons/twitter.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/1.png">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/1.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/10.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/10.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/11.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/11.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/12.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/12.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/13.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/13.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/14.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/14.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/15.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/15.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/16.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/16.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/17.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/17.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/18.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/18.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/19.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/19.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/2.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/2.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/20.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/20.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/21.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/21.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/22.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/22.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/23.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/23.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/24.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/24.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/25.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/25.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/26.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/26.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/27.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/27.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/28.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/28.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/29.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/29.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/3.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/3.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/30.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/30.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/31.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/31.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/32.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/32.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/33.png">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/33.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/34.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/34.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/35.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/35.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/36.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/36.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/37.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/37.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/38.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/38.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/39.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/39.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/4.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/4.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/5.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/5.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/6.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/6.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/7.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/7.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/8.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/8.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/9.jpg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/9.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/scenes/DancingCouples.PNG">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.babylon">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.floor.001_TEXTURE.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.floor_TEXTURE.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.log">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.Plane_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.roof_TEXTURE.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.Sphere_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.wall.001_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.wall.002_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.wall.003_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoom.wall_DIFFUSE_COLOR.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoomTest.babylon">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/showRoomTest.log">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/scenes/white_marble_fine_20120709_1772275766 %282%29.jpg">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/shaders/gradient.fragment.fx">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Content/shaders/gradient.vertex.fx">
+      <publishTime>01/05/2016 09:12:00</publishTime>
+    </File>
+    <File Include="Gallery.html">
+      <publishTime>01/12/2016 23:29:40</publishTime>
+    </File>
+    <File Include="Index.html">
+      <publishTime>01/12/2016 23:30:10</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>01/12/2016 17:42:44</publishTime>
+    </File>
+    <File Include="pictureDialog.tmpl.html">
+      <publishTime>01/12/2016 18:41:04</publishTime>
+    </File>
+    <File Include="Scene.html">
+      <publishTime>01/05/2016 09:27:59</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-animate.js">
+      <publishTime>01/05/2016 09:33:50</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-aria.js">
+      <publishTime>01/05/2016 09:33:58</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-cookies.js">
+      <publishTime>01/05/2016 09:34:14</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-easyfb.js">
+      <publishTime>01/12/2016 20:01:29</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-material.js">
+      <publishTime>01/05/2016 09:34:27</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-mocks.js">
+      <publishTime>01/05/2016 09:13:46</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular-route.js">
+      <publishTime>01/05/2016 09:34:38</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular.js">
+      <publishTime>01/05/2016 09:33:30</publishTime>
+    </File>
+    <File Include="Scripts/angular/angular.min.js.map">
+      <publishTime>01/05/2016 09:13:46</publishTime>
+    </File>
+    <File Include="Scripts/angular/angulike.js">
+      <publishTime>01/12/2016 18:54:00</publishTime>
+    </File>
+    <File Include="Scripts/babylon/babylon.js">
+      <publishTime>01/05/2016 09:13:46</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>01/12/2016 23:30:46</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

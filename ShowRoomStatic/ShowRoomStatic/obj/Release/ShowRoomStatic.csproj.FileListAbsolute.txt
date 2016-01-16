@@ -1,0 +1,6 @@
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\bin\ShowRoomStatic.dll.config
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\bin\ShowRoomStatic.dll
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\bin\ShowRoomStatic.pdb
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\obj\Release\ShowRoomStatic.csprojResolveAssemblyReference.cache
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\obj\Release\ShowRoomStatic.dll
+D:\WorkSpace\ShowRoomStatic\ShowRoomStatic\obj\Release\ShowRoomStatic.pdb

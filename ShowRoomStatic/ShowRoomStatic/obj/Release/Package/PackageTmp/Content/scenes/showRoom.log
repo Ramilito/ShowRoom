@@ -1,0 +1,121 @@
+	Exporter version: 3.0.6, Blender version: 2.76 (sub 0)
+========= Conversion from Blender to Babylon.js =========
+	Python World class constructor completed
+	processing begun of mesh:  paintingWall
+		processing begun of Standard material:  painitngWall
+		Diffuse texture found
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  28
+		num normals        :  28
+		num uvs            :  56
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  painting
+		processing begun of Standard material:  picture1
+		Diffuse texture found
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  floor
+		processing begun of baked material:  floor
+			Internal baking texture, type: TEXTURE, mapped using: BakingUV
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of camera (FreeCamera):  Camera
+	processing begun of mesh:  paintingWall2
+		registered as also a user of material:  painitngWall
+		num positions      :  28
+		num normals        :  28
+		num uvs            :  56
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  painting2
+		processing begun of Standard material:  picture1.001
+		Diffuse texture found
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  paintingWall3
+		registered as also a user of material:  painitngWall
+		num positions      :  28
+		num normals        :  28
+		num uvs            :  56
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  painting3
+		processing begun of Standard material:  picture1.002
+		Diffuse texture found
+			Image texture found, type:  diffuseTexture, mapped using: "UVMap"
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of mesh:  wall
+		processing begun of baked material:  wall
+			Cycles baking texture, type: DIFFUSE_COLOR, mapped using: BakingUV
+		num positions      :  31
+		num normals        :  31
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  wall.002
+		processing begun of baked material:  wall.002
+			Cycles baking texture, type: DIFFUSE_COLOR, mapped using: BakingUV
+		num positions      :  31
+		num normals        :  31
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  wall.001
+		processing begun of baked material:  wall.001
+			Cycles baking texture, type: DIFFUSE_COLOR, mapped using: BakingUV
+		num positions      :  31
+		num normals        :  31
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  wall.003
+		processing begun of baked material:  wall.003
+			Cycles baking texture, type: DIFFUSE_COLOR, mapped using: BakingUV
+		num positions      :  31
+		num normals        :  31
+		num uvs            :  62
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  36
+	processing begun of mesh:  floor.001
+		processing begun of baked material:  floor.001
+			Internal baking texture, type: TEXTURE, mapped using: BakingUV
+		num positions      :  4
+		num normals        :  4
+		num uvs            :  8
+		num uvs2           :  0
+		num colors         :  0
+		num indices        :  6
+	processing begun of light (SPOT):  Spot
+	processing begun of light (HEMI):  Hemi
+	processing begun of light (SPOT):  Spot.001
+========= Writing of scene file started =========
+========= Writing of scene file completed =========
+========= end of processing =========
+elapsed time:  0 min, 10.6355 secs
