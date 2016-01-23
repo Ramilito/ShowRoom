@@ -12,7 +12,7 @@
         };
 
 
-        vm.paintings.push({ id: 1, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/1.png", thumbsUp: 220 });
+        vm.paintings.push({ id: 1, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/1.jpg", thumbsUp: 220 });
         vm.paintings.push({ id: 2, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/2.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 3, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/3.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 4, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/4.jpg", thumbsUp: 0 });
@@ -44,7 +44,7 @@
         vm.paintings.push({ id: 30, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/30.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 31, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/31.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 32, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/32.jpg", thumbsUp: 0 });
-        vm.paintings.push({ id: 33, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/33.png", thumbsUp: 0 });
+        vm.paintings.push({ id: 33, name: "Dancing Couple", text: "Dancing Couple", src: "content/img/paintings/33.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 34, name: "Dogs at the window", text: "Dogs at the window", src: "content/img/paintings/34.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 35, name: "Flowers", text: "Flowers", src: "content/img/paintings/35.jpg", thumbsUp: 0 });
         vm.paintings.push({ id: 36, name: "Flowers", text: "Flowers", src: "content/img/paintings/36.jpg", thumbsUp: 0 });

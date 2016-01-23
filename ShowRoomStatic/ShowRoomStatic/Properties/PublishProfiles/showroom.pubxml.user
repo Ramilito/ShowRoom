@@ -10,16 +10,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include=".htaccess">
-      <publishTime>01/12/2016 17:51:20</publishTime>
+      <publishTime>01/16/2016 20:51:19</publishTime>
     </File>
     <File Include="About.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
     </File>
     <File Include="app/app.module.js">
-      <publishTime>01/12/2016 20:36:00</publishTime>
+      <publishTime>01/16/2016 22:05:21</publishTime>
     </File>
     <File Include="app/controllers/about.js">
       <publishTime>01/05/2016 09:11:16</publishTime>
+    </File>
+    <File Include="app/controllers/bottomSheet.js">
+      <publishTime>01/20/2016 22:35:40</publishTime>
     </File>
     <File Include="app/controllers/checkout.js">
       <publishTime>01/05/2016 09:11:17</publishTime>
@@ -28,19 +31,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 21:31:57</publishTime>
     </File>
     <File Include="app/controllers/gallery.js">
-      <publishTime>01/12/2016 22:59:09</publishTime>
+      <publishTime>01/20/2016 22:49:08</publishTime>
     </File>
     <File Include="app/controllers/main.js">
-      <publishTime>01/05/2016 09:11:19</publishTime>
+      <publishTime>01/21/2016 19:27:38</publishTime>
     </File>
     <File Include="app/controllers/scene.js">
       <publishTime>01/05/2016 09:11:19</publishTime>
     </File>
     <File Include="app/directives/babylonScene.js">
-      <publishTime>01/05/2016 09:11:36</publishTime>
+      <publishTime>01/13/2016 01:36:45</publishTime>
     </File>
     <File Include="app/services/products.js">
-      <publishTime>01/12/2016 20:11:04</publishTime>
+      <publishTime>01/16/2016 20:15:33</publishTime>
     </File>
     <File Include="app/services/shoppingCart.js">
       <publishTime>01/05/2016 09:10:46</publishTime>
@@ -85,7 +88,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 17:42:43</publishTime>
     </File>
     <File Include="bin/ShowRoomStatic.dll">
-      <publishTime>01/12/2016 23:30:46</publishTime>
+      <publishTime>01/21/2016 19:29:02</publishTime>
+    </File>
+    <File Include="bottomSheetSocial.tmpl.html">
+      <publishTime>01/20/2016 22:47:38</publishTime>
     </File>
     <File Include="Checkout.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
@@ -124,6 +130,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/icons/twitter.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="content/img/paintings/1.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/1.png">
@@ -191,6 +200,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/paintings/19.webp">
       <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="content/img/paintings/1FB.jpg">
+      <publishTime>01/16/2016 18:48:13</publishTime>
     </File>
     <File Include="Content/img/paintings/2.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
@@ -280,6 +292,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/32.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="content/img/paintings/33.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/33.png">
@@ -412,16 +427,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:12:00</publishTime>
     </File>
     <File Include="Gallery.html">
-      <publishTime>01/12/2016 23:29:40</publishTime>
+      <publishTime>01/20/2016 22:49:25</publishTime>
     </File>
     <File Include="Index.html">
-      <publishTime>01/12/2016 23:30:10</publishTime>
+      <publishTime>01/20/2016 22:30:32</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>01/12/2016 17:42:44</publishTime>
     </File>
     <File Include="pictureDialog.tmpl.html">
-      <publishTime>01/12/2016 18:41:04</publishTime>
+      <publishTime>01/20/2016 22:27:58</publishTime>
     </File>
     <File Include="Scene.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
@@ -460,7 +475,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:13:46</publishTime>
     </File>
     <File Include="Web.config">
-      <publishTime>01/12/2016 23:30:46</publishTime>
+      <publishTime>01/21/2016 19:29:03</publishTime>
     </File>
   </ItemGroup>
 </Project>

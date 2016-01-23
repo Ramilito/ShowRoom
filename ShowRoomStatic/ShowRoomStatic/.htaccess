@@ -5,7 +5,7 @@ AddType application/fx fx
 AddType model/vnd.collada+xml dae
 
 RewriteEngine On
-Options FollowSymLinks
+
 
 # Handle Prerender.io
 RequestHeader set X-Prerender-Token "PSjYeDa1fa5XvAACrwdU"
@@ -14,10 +14,11 @@ RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerb
 RewriteCond %{QUERY_STRING} _escaped_fragment_
 
 # Proxy the request
-RewriteRule ^(.*)$ http://service.prerender.io/http://galinapassare.website/Gallery/$1 [P,L]
+RewriteRule ^(?!.*?(\.js|\.css|\.xml|\.less|\.png|\.jpg|\.jpeg|\.gif|\.pdf|\.doc|\.txt|\.ico|\.rss|\.zip|\.mp3|\.rar|\.exe|\.wmv|\.doc|\.avi|\.ppt|\.mpg|\.mpeg|\.tif|\.wav|\.mov|\.psd|\.ai|\.xls|\.mp4|\.m4a|\.swf|\.dat|\.dmg|\.iso|\.flv|\.m4v|\.torrent|\.ttf|\.woff))(.*) http://service.prerender.io/http://%{HTTP_HOST}/$2 [QSA,P,L]
 
 
 
+Options FollowSymLinks
 RewriteBase /
 
 RewriteCond %{REQUEST_FILENAME} !-f

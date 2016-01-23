@@ -3,8 +3,9 @@
 
     angular.module('app').controller('Main', main);
 
-    function main($mdSidenav, $mdMedia, $timeout, $location, $scope, $log, shoppingService, productsService) {
+    function main($mdSidenav, $mdMedia, $timeout, $location, $routeParams, $scope, $log, shoppingService, productsService) {
         var vm = this;
+
         vm.logo = "content/img/icons/logo.svg";
 
         vm.cartItems = shoppingService.getItems();

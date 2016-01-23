@@ -6,21 +6,24 @@ by editing this MSBuild file. In order to learn more about this please visit htt
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo5/Umjw2O0mkSuwEMeWXBgAAAAACAAAAAAAQZgAAAAEAACAAAACAWvcEGZokhDPQ/nqCv/gLH3cF+n6amOUAi1Jd8NMbowAAAAAOgAAAAAIAACAAAADHGfmZxNqukwlGgEDc2bMBFfeQFzxzPea9Vx1Rq7pl4yAAAABCu6DVCXFNfcSoXJCB1syDmTVDHeXQ3GjhncklRZ8NskAAAAAp6RYjhoIKUdecGyUt0hrojwJRO670IAubDEVD/vy8I2FU2HJDczeviCi36ixXGjb6whGfG24lbFRger5eXvAF</EncryptedPassword>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAo5/Umjw2O0mkSuwEMeWXBgAAAAACAAAAAAAQZgAAAAEAACAAAAAZHcMqNrLul0MX5E9pMxLuS/P54hPlLoapRFhuT2RbqAAAAAAOgAAAAAIAACAAAAB528sDJb7c5h7Xrg2x7BEqJ55lIOY6T63R/SgHovlKAiAAAAAmp0GTie3QhHg25QZAI63FLJZEyhhNF975WksSMdzZjEAAAAB8j8wyihFeQpnK926O9PJPLXoO8/JMObetRopg8+nswtGKXrgWnzcPECzFXBJl8mI/70bGEwj8o4VLRdXNRK9W</EncryptedPassword>
     <_PublishTargetUrl>ftp://ftp.galinapassare.website/public_html</_PublishTargetUrl>
   </PropertyGroup>
   <ItemGroup>
     <File Include=".htaccess">
-      <publishTime>01/13/2016 11:02:14</publishTime>
+      <publishTime>01/16/2016 20:51:19</publishTime>
     </File>
     <File Include="About.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
     </File>
     <File Include="app/app.module.js">
-      <publishTime>01/13/2016 10:58:00</publishTime>
+      <publishTime>01/16/2016 22:05:21</publishTime>
     </File>
     <File Include="app/controllers/about.js">
       <publishTime>01/05/2016 09:11:16</publishTime>
+    </File>
+    <File Include="app/controllers/bottomSheet.js">
+      <publishTime>01/20/2016 22:35:40</publishTime>
     </File>
     <File Include="app/controllers/checkout.js">
       <publishTime>01/05/2016 09:11:17</publishTime>
@@ -29,10 +32,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 21:31:57</publishTime>
     </File>
     <File Include="app/controllers/gallery.js">
-      <publishTime>01/13/2016 09:45:30</publishTime>
+      <publishTime>01/20/2016 22:49:08</publishTime>
     </File>
     <File Include="app/controllers/main.js">
-      <publishTime>01/05/2016 09:11:19</publishTime>
+      <publishTime>01/16/2016 21:01:09</publishTime>
     </File>
     <File Include="app/controllers/scene.js">
       <publishTime>01/05/2016 09:11:19</publishTime>
@@ -41,7 +44,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/13/2016 01:36:45</publishTime>
     </File>
     <File Include="app/services/products.js">
-      <publishTime>01/12/2016 20:11:04</publishTime>
+      <publishTime>01/16/2016 20:15:33</publishTime>
     </File>
     <File Include="app/services/shoppingCart.js">
       <publishTime>01/05/2016 09:10:46</publishTime>
@@ -62,7 +65,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 17:42:43</publishTime>
     </File>
     <File Include="bin/ShowRoomStatic.dll">
-      <publishTime>01/13/2016 10:23:28</publishTime>
+      <publishTime>01/20/2016 23:00:34</publishTime>
+    </File>
+    <File Include="bottomSheetSocial.tmpl.html">
+      <publishTime>01/20/2016 22:47:38</publishTime>
     </File>
     <File Include="Checkout.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
@@ -101,6 +107,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/icons/twitter.svg">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/1.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/1.png">
@@ -168,6 +177,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     </File>
     <File Include="Content/img/paintings/19.webp">
       <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/1FB.jpg">
+      <publishTime>01/16/2016 18:48:13</publishTime>
     </File>
     <File Include="Content/img/paintings/2.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
@@ -257,6 +269,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/32.webp">
+      <publishTime>01/05/2016 09:11:59</publishTime>
+    </File>
+    <File Include="Content/img/paintings/33.jpg">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
     <File Include="Content/img/paintings/33.png">
@@ -389,16 +404,16 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:12:00</publishTime>
     </File>
     <File Include="Gallery.html">
-      <publishTime>01/13/2016 10:53:56</publishTime>
+      <publishTime>01/20/2016 22:49:25</publishTime>
     </File>
     <File Include="Index.html">
-      <publishTime>01/13/2016 11:00:36</publishTime>
+      <publishTime>01/20/2016 22:30:32</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>01/12/2016 17:42:44</publishTime>
     </File>
     <File Include="pictureDialog.tmpl.html">
-      <publishTime>01/12/2016 18:41:04</publishTime>
+      <publishTime>01/20/2016 22:27:58</publishTime>
     </File>
     <File Include="Scene.html">
       <publishTime>01/05/2016 09:27:59</publishTime>

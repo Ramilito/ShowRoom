@@ -1,23 +1,25 @@
-  AddType application/babylon babylon
-  AddType application/babylonmeshdata babylonmeshdata
+AddType application/babylon babylon
+AddType application/babylonmeshdata babylonmeshdata
 
-  AddType application/fx fx
-  AddType model/vnd.collada+xml dae
+AddType application/fx fx
+AddType model/vnd.collada+xml dae
 
-  RewriteEngine On
-  Options FollowSymLinks
+RewriteEngine On
+Options FollowSymLinks
 
-  #Handle Prerender.io
-    RequestHeader set X-Prerender-Token "PSjYeDa1fa5XvAACrwdU"
+# Handle Prerender.io
+RequestHeader set X-Prerender-Token "PSjYeDa1fa5XvAACrwdU"
 
-    RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
-    RewriteCond %{QUERY_STRING} _escaped_fragment_
+RewriteCond %{HTTP_USER_AGENT} baiduspider|facebookexternalhit|twitterbot|rogerbot|linkedinbot|embedly|quora\ link\ preview|showyoubot|outbrain|pinterest [NC,OR]
+RewriteCond %{QUERY_STRING} _escaped_fragment_
 
-    # Proxy the request
-    RewriteRule ^(.*)$ http://service.prerender.io/http://galinapassare.website/Gallery/$1 [P,L]
+# Proxy the request
+RewriteRule ^(.*)$ http://service.prerender.io/http://galinapassare.website/Gallery/10 [P,L]
 
-    RewriteBase /
 
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^(.*)$ /Index.html
+
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /Index.html

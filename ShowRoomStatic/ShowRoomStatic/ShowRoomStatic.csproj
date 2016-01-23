@@ -63,6 +63,7 @@
     <Content Include="app\app.module.js" />
     <Content Include="app\controllers\about.js" />
     <Content Include="app\controllers\checkout.js" />
+    <Content Include="app\controllers\bottomSheet.js" />
     <Content Include="app\controllers\dialog.js" />
     <Content Include="app\controllers\gallery.js" />
     <Content Include="app\controllers\main.js" />
@@ -80,7 +81,8 @@
     <Content Include="content\img\icons\logo.svg" />
     <Content Include="content\img\icons\menu.svg" />
     <Content Include="content\img\icons\twitter.svg" />
-    <Content Include="content\img\paintings\1.png" />
+    <Content Include="content\img\paintings\1FB.jpg" />
+    <Content Include="content\img\paintings\1.jpg" />
     <Content Include="content\img\paintings\10.jpg" />
     <Content Include="content\img\paintings\11.jpg" />
     <Content Include="content\img\paintings\12.jpg" />
@@ -106,7 +108,7 @@
     <Content Include="content\img\paintings\30.jpg" />
     <Content Include="content\img\paintings\31.jpg" />
     <Content Include="content\img\paintings\32.jpg" />
-    <Content Include="content\img\paintings\33.png" />
+    <Content Include="content\img\paintings\33.jpg" />
     <Content Include="content\img\paintings\34.jpg" />
     <Content Include="content\img\paintings\35.jpg" />
     <Content Include="content\img\paintings\36.jpg" />
@@ -132,6 +134,7 @@
     <Content Include="content\scenes\white_marble_fine_20120709_1772275766 %282%29.jpg" />
     <Content Include="Gallery.html" />
     <Content Include="pictureDialog.tmpl.html" />
+    <Content Include="bottomSheetSocial.tmpl.html" />
     <Content Include="Scene.html" />
     <Content Include="Scripts\angular\angular-easyfb.js" />
     <Content Include="Scripts\angular\angular.min.js.map" />
