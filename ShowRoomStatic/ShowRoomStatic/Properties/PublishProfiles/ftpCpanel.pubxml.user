@@ -11,13 +11,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include=".htaccess">
-      <publishTime>01/16/2016 20:51:19</publishTime>
+      <publishTime>01/23/2016 10:49:21</publishTime>
     </File>
     <File Include="About.html">
       <publishTime>01/05/2016 09:27:59</publishTime>
     </File>
     <File Include="app/app.module.js">
-      <publishTime>01/16/2016 22:05:21</publishTime>
+      <publishTime>01/23/2016 15:44:53</publishTime>
     </File>
     <File Include="app/controllers/about.js">
       <publishTime>01/05/2016 09:11:16</publishTime>
@@ -32,19 +32,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 21:31:57</publishTime>
     </File>
     <File Include="app/controllers/gallery.js">
-      <publishTime>01/20/2016 22:49:08</publishTime>
+      <publishTime>01/24/2016 18:21:12</publishTime>
     </File>
     <File Include="app/controllers/main.js">
-      <publishTime>01/16/2016 21:01:09</publishTime>
+      <publishTime>01/21/2016 19:27:38</publishTime>
     </File>
     <File Include="app/controllers/scene.js">
       <publishTime>01/05/2016 09:11:19</publishTime>
+    </File>
+    <File Include="app/controllers/vernissage.js">
+      <publishTime>01/30/2016 00:22:11</publishTime>
     </File>
     <File Include="app/directives/babylonScene.js">
       <publishTime>01/13/2016 01:36:45</publishTime>
     </File>
     <File Include="app/services/products.js">
-      <publishTime>01/16/2016 20:15:33</publishTime>
+      <publishTime>01/30/2016 00:18:58</publishTime>
     </File>
     <File Include="app/services/shoppingCart.js">
       <publishTime>01/05/2016 09:10:46</publishTime>
@@ -65,13 +68,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 17:42:43</publishTime>
     </File>
     <File Include="bin/ShowRoomStatic.dll">
-      <publishTime>01/20/2016 23:00:34</publishTime>
+      <publishTime>01/23/2016 23:47:28</publishTime>
     </File>
     <File Include="bottomSheetSocial.tmpl.html">
       <publishTime>01/20/2016 22:47:38</publishTime>
     </File>
     <File Include="Checkout.html">
-      <publishTime>01/05/2016 09:27:59</publishTime>
+      <publishTime>01/23/2016 15:37:18</publishTime>
     </File>
     <File Include="Content/css/angular-material.css">
       <publishTime>01/05/2016 09:35:15</publishTime>
@@ -80,7 +83,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/12/2016 20:41:23</publishTime>
     </File>
     <File Include="Content/css/site.css">
-      <publishTime>01/05/2016 09:12:00</publishTime>
+      <publishTime>01/23/2016 23:54:34</publishTime>
     </File>
     <File Include="Content/fonts/glyphicons-halflings-regular.eot">
       <publishTime>01/05/2016 09:12:00</publishTime>
@@ -352,6 +355,9 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Content/img/paintings/9.webp">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
+    <File Include="content/img/vernissage/1.jpg">
+      <publishTime>01/23/2016 15:54:59</publishTime>
+    </File>
     <File Include="Content/scenes/DancingCouples.PNG">
       <publishTime>01/05/2016 09:11:59</publishTime>
     </File>
@@ -404,10 +410,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/05/2016 09:12:00</publishTime>
     </File>
     <File Include="Gallery.html">
-      <publishTime>01/20/2016 22:49:25</publishTime>
+      <publishTime>01/30/2016 00:42:40</publishTime>
     </File>
     <File Include="Index.html">
-      <publishTime>01/20/2016 22:30:32</publishTime>
+      <publishTime>01/24/2016 17:39:36</publishTime>
     </File>
     <File Include="packages.config">
       <publishTime>01/12/2016 17:42:44</publishTime>
@@ -451,8 +457,11 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="Scripts/babylon/babylon.js">
       <publishTime>01/05/2016 09:13:46</publishTime>
     </File>
+    <File Include="Vernissage.html">
+      <publishTime>01/23/2016 16:09:50</publishTime>
+    </File>
     <File Include="Web.config">
-      <publishTime>01/13/2016 00:26:00</publishTime>
+      <publishTime>01/23/2016 23:47:32</publishTime>
     </File>
   </ItemGroup>
 </Project>

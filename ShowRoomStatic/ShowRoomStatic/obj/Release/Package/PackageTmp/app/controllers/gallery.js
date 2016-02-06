@@ -81,7 +81,7 @@
 
         if ($routeParams.id !== undefined) {
             var id = parseInt($routeParams.id);
-            var painting = vm.paintings[id];
+            var painting = vm.paintings[id - 1];
 
             $rootScope.ogTitle = painting.name;
             $rootScope.ogId = painting.id;

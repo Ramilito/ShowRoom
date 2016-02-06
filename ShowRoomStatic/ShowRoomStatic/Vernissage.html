@@ -1,0 +1,27 @@
+﻿<div class="animate-this" ng-controller="Vernissage as vm" ng-hide="vm.isHidden">
+    <md-content class="view" layout-align="center" layout-fill layout="row">
+        <div flex>
+            <md-card>
+                <md-content>
+                    <md-toolbar>
+                        <div class="md-toolbar-tools">
+                            <div flex layout="row">
+                                <h1 class="md-toolbar-tools">{{vm.title}}</h1>
+                            </div>
+                        </div>
+                    </md-toolbar>
+                    <md-subheader class="md-primary">
+                        Upcoming vernissage
+                    </md-subheader>
+                    <md-content ng-repeat="item in vm.items">
+                        <md-card>
+                            <md-button class="gallery-card-img" ng-click="vm.showDialog($event, item)" aria-label="item.name">
+                                <img ng-src="{{item.src}}">
+                            </md-button>
+                        </md-card>
+                    </md-content>
+                </md-content>
+            </md-card>
+        </div>
+    </md-content>
+</div>

@@ -9,6 +9,9 @@
             .when('/Checkout', {
                 templateUrl: '/Checkout.html',
             })
+            .when('/Vernissage', {
+                templateUrl: '/Vernissage.html',
+           })
            .when('/About', {
                templateUrl: '/About.html',
            })

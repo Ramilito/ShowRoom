@@ -8,7 +8,7 @@
     <meta property="fb:app_id" content="1107644002588201" />
     <meta property="og:url" content="{{'http://galinapassare.website/Gallery/' + ogId}}" />
     <meta property="og:title" content="{{ogTitle}}" />
-    <meta property="og:image" content="{{ogContent}}" />
+    <meta property="og:image:url" content="{{ogContent}}" />
     <meta property="og:type" content="article" />
     <meta property="og:image:type" content="image/jpg" />
     <meta property="og:image:width" content="400" />
@@ -31,9 +31,15 @@
         </md-toolbar>
         <md-content layout="column">
             <md-button href="Gallery" class="menu-item menu-title">Gallery</md-button>
+            <md-button href="Vernissage" class="menu-item menu-title">
+                Vernissage 
+            </md-button>
             <md-button href="Checkout" ng-disabled="vm.cartItems.length === 0" class="menu-item menu-title">Checkout</md-button>
             <md-button href="About" class="menu-item menu-title">About</md-button>
-            <md-button href="Scene" ng-disabled="!vm.showTour" class="menu-item menu-title">3D Tour <span style="color:red;">(BETA)</span></md-button>
+            <md-button href="Scene" ng-disabled="!vm.showTour" class="menu-item menu-title">
+                3D Tour <span id='overlay' style="color:red; left:130px; top:341px">(BETA)</span>
+            </md-button>
+       
             <md-button ng-click="vm.close()" class="menu-item menu-title" hide-gt-md>Close</md-button>
         </md-content>
     </md-sidenav>
@@ -76,6 +82,7 @@
     <script src="app/controllers/main.js"></script>
     <script src="app/controllers/about.js"></script>
     <script src="app/controllers/dialog.js"></script>
+    <script src="app/controllers/vernissage.js"></script>
     <script src="app/controllers/bottomSheet.js"></script>
     <script src="app/controllers/scene.js"></script>
     <script src="app/controllers/checkout.js"></script>
